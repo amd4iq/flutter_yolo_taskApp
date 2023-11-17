@@ -10,8 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_slidable: ^3.0.1
-  fluttertoast: ^8.2.4
-  gap: ^3.0.1
   get: 4.6.6
   get_storage: ^2.1.1
   liquid_pull_to_refresh: ^3.0.1

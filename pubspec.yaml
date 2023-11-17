@@ -1,0 +1,35 @@
+name: yolo_todo
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_slidable: ^3.0.1
+  fluttertoast: ^8.2.4
+  gap: ^3.0.1
+  get: 4.6.6
+  get_storage: ^2.1.1
+  liquid_pull_to_refresh: ^3.0.1
+
+dev_dependencies:
+  flutter_launcher_icons:
+  flutter_lints: 3.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+
+assets:
+  - assets/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
